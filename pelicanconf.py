@@ -7,11 +7,12 @@ SITENAME = u'MK47'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images', 'pdfs'] 
 MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
-
+                    
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
@@ -30,6 +31,7 @@ AUTHOR_FEED_RSS = None
 #SOCIAL = ('https://twitter.com/cbonnett', '#')
 TWITTER_USER = 'cbonnett'
 DEFAULT_PAGINATION = 10
+DISQUS_SITENAME = "https://mk49.disqus.com"
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
