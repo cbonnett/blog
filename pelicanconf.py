@@ -41,7 +41,6 @@ DEFAULT_PAGINATION = 10
 DISQUS_SITENAME = "mk49"
 GOOGLE_ANALYTICS = 'UA-34061646-1'
                                                
-
 # RSS/Atom feeds
 FEED_DOMAIN = SITEURL
 FEED_ATOM = 'atom.xml'
