@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Christopher Bonnett'
 SITENAME = u'PL49'
-SITEURL = 'http://cbonnett.github.io/'
+SITEURL = 'http://cbonnett.github.io'
 
 PATH = 'content'
 STATIC_PATHS = ['images', 'pdfs'] 
@@ -38,7 +38,9 @@ TWITTER_TWEET_BUTTON = True
 TWITTER_LATEST_TWEETS = True
 TWITTER_FOLLOW_BUTTON = True
 DEFAULT_PAGINATION = 10
-DISQUS_SITENAME = "https://mk49.disqus.com"
+DISQUS_SITENAME = "mk49"
+GOOGLE_ANALYTICS = 'UA-34061646-1'
+                                               
 
 # RSS/Atom feeds
 FEED_DOMAIN = SITEURL
