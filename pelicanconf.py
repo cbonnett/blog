@@ -3,7 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Christopher Bonnett'
-SITENAME = u'PL49'
+SITENAME = u'PL49'  
+SITESUBTITLE = u'About Machine Learning and Astronomy'
 SITEURL = 'http://cbonnett.github.io'
 
 PATH = 'content'
