@@ -1,6 +1,6 @@
 title: Mixture Density Networks for Galaxy distance determination in TensorFlow
-date: 2016-04-25 10:20
+date: 2016-05-25 10:20
 modified: 2016-05-25 18:40
 tags: TensorFlow, redshift, MDN
-category: ML in science
+category:
 slug: MDN
