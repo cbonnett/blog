@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Christopher Bonnett'
-SITENAME = u'PL49'  
-SITESUBTITLE = u'About Machine Learning and Astronomy'
+SITENAME = u'Adventures in Machine Learning'
+SITESUBTITLE = u''
 SITEURL = 'http://cbonnett.github.io'
 
 PATH = 'content'
@@ -16,12 +16,11 @@ PLUGINS = ['ipynb.markup']
                     
 TIMEZONE = 'Europe/Paris'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = u'en'               
  
 THEME = '/Users/Christopher_old/ice/github_code/pelican-themes/octopress'
 
-MENUITEMS = [('Archives', '/archives.html'),
-             ('LinkedIn', 'https://www.linkedin.com/in/cbonnett')]
+MENUITEMS = [('LinkedIn', 'https://www.linkedin.com/in/cbonnett')]
 NEWEST_FIRST_ARCHIVES = False
 
 # Feed generation is usually not desired when developing
